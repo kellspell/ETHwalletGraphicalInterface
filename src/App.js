@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import './App.css'
-import EtherWallet from './artifacts/contracts/EtherWallet.sol/EtherWallet.json'
+import EtherWallet from './contracts/EtherWallet.sol/EtherWallet.json'
 
 function App() {
   const contractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
