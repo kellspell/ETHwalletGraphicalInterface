@@ -159,6 +159,7 @@ function App() {
       <header className='App-header'>
         {! isActive ? (
         <>
+        <div className='mt-2 mb-2'> Wellcome To Your Wallet App </div>
          <Button variant='success' onClick={connectToMetamask} disabled={shouldDisable} >
            <img src='images/metamask.svg' alt='Metamask' width='50' height='50'/>
             Connect to Metamask
